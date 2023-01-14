@@ -45,4 +45,3 @@ try{
     res.status(500).send(error || 'Something went wrong');
   }
 })
-app.listen(8080, () => console.log('Server is running on port http://localhost:8080'));
